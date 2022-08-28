@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+     color: white;
+     font-weight: bold;
+     
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#seconds{
+    opacity: 20%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    font-size: 200px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
